@@ -196,6 +196,3 @@ Headline numbers from the cleaned dataset (3,900 customers):
 - Turning data into **business recommendations** and communicating them to stakeholders
 
 ---
-
-## Credits
-Based on the open-source project by [Amlan Mohanty](https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI) (MIT License). See [`LICENSE`](LICENSE).
