@@ -172,19 +172,14 @@ Headline numbers from the cleaned dataset (3,900 customers):
 - Power BI Desktop (Windows)
 
 ### Steps
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
-   ```
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    pip install pandas sqlalchemy psycopg2-binary jupyter
    ```
-3. **Create the database** in pgAdmin: right-click *Databases → Create → Database* and name it `customer_behavior`.
-4. **Run the notebook.** Open `Customer_Shopping_Behavior_Analysis.ipynb` and run the cells in order. The last cell asks for your PostgreSQL password at runtime, so no credentials are stored in the notebook.
-5. **Run the SQL.** Open `customer_behavior_queries.sql` in pgAdmin's Query Tool and run each query with **F5**.
-6. **Open the dashboard.** Open `customer_behavior.pbix` in Power BI Desktop. If prompted, update the data source to point to your local PostgreSQL server.
+2. **Create the database** in pgAdmin: right-click *Databases → Create → Database* and name it `customer_behavior`.
+3. **Run the notebook.** Open `Customer_Shopping_Behavior_Analysis.ipynb` and run the cells in order. The last cell asks for your PostgreSQL password at runtime, so no credentials are stored in the notebook.
+4. **Run the SQL.** Open `customer_behavior_queries.sql` in pgAdmin's Query Tool and run each query with **F5**.
+5. **Open the dashboard.** Open `customer_behavior.pbix` in Power BI Desktop. If prompted, update the data source to point to your local PostgreSQL server.
 
 ---
 
